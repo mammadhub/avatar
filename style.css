@@ -123,7 +123,39 @@ section{
     nav{
         display: flex;
         justify-content: space-around;
-        gap: 100px;
+        gap: 0px;
+        font-size: 80%;
     }
+    section {
+        /* font-size: 80%; */
+        padding: 120px 0px;
+    }
+
+}
+@media only screen and (max-width: 400px){
+    .menu{
+        display: none;
+    }
+    .open{
+        display: flex;
+        background-color: green;
+        padding: 10px;
+        border-radius: 8px;
+    }
+    .mobile_menu{
+        display: flex;
+    }
+    nav{
+        display: flex;
+        justify-content: left;
+        flex-direction: column;
+        gap: 0px;
+        font-size: 80%;
+        text-align: left;
+    }
+    /* section {
+        font-size: 80%;
+        padding: 120px 0px;
+    } */
 
 }
